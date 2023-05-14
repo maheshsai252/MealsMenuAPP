@@ -2,4 +2,4 @@
 
 ## Built with SwiftUI using Async Await for fetching data from API
 
-![Demo](./Demo/Demo.mp4)
+![Demo](./Demo/demo_G96UiLH9.mp4)
