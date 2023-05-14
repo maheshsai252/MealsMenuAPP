@@ -48,7 +48,7 @@ struct SplashView: View {
         }.ignoresSafeArea()
             .scaleEffect(outerscale)
             .onAppear() {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                     withAnimation {
                         scale = 1.5
                     }

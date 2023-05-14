@@ -64,6 +64,7 @@
 		B1E4FD142A1121C600276B7A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		B1E4FD172A112AC900276B7A /* RotatingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingImageView.swift; sourceTree = "<group>"; };
 		B1E4FD192A112C1200276B7A /* CategoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModels.swift; sourceTree = "<group>"; };
+		B1E4FD1F2A1170FF00276B7A /* demo_G96UiLH9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo_G96UiLH9.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		B1D55D8A2A0F4840000308B7 = {
 			isa = PBXGroup;
 			children = (
+				B1E4FD1E2A116F9700276B7A /* Demo */,
 				B1D55D952A0F4840000308B7 /* Meal */,
 				B1D55D942A0F4840000308B7 /* Products */,
 			);
@@ -189,6 +191,14 @@
 				B1E4FD172A112AC900276B7A /* RotatingImageView.swift */,
 			);
 			path = SplashViews;
+			sourceTree = "<group>";
+		};
+		B1E4FD1E2A116F9700276B7A /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B1E4FD1F2A1170FF00276B7A /* demo_G96UiLH9.mp4 */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

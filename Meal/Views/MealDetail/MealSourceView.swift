@@ -21,8 +21,6 @@ struct MealSourceView: View {
                     }.foregroundColor(.primary)
                 }.padding()
             }
-        }.onAppear() {
-            print(mealDetail.strSource)
         }
     }
 }
