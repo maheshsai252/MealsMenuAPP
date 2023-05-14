@@ -38,6 +38,8 @@ class MealViewModel: ObservableObject {
              let mealsResponse: Meals = try JSONDecoder().decode(Meals.self, from: data)
              
              self.meals = mealsResponse.meals ?? []
+             self.meals = self.meals.compactMap({$0})
+
              // Filter nil values and sort by name
              self.meals = self.meals.filter({$0.strMeal != nil})
              self.meals.sort { a, b in
