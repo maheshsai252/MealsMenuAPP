@@ -30,7 +30,6 @@ class MealViewModel: ObservableObject {
         let urlSession = URLSession.shared
         
             let (data, response) = try await urlSession.data(from: url)
-            print(response)
          guard (response as? HTTPURLResponse)?.statusCode == 200 else {
              throw MealError.notFound
          }
